@@ -1,4 +1,4 @@
-# Mercava Page Splitter Script
+# Torah Tools
 
 To run this script:
 1. Clone the project and `cd` into the directory.
