@@ -1,0 +1,24 @@
+[project]
+name = "torah_tools"
+version = "0.1.0"
+description = "A Collection of scripts and scrapers that can help grok and access the texts of Torah."
+authors = [
+    {name = "Yarden Eliyahu Hubscher", email = "eliyahu.hubscher@icloud.com"},
+]
+dependencies = [
+    "Scrapy>=2.11.0",
+    "click>=8.1.7",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "UNLICENSED"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "ruff>=0.1.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
